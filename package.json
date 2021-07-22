@@ -1,0 +1,19 @@
+{
+  "name": "closures_and_scope_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloBeltran24/Closures_and_Scope_JavaScript.git"
+  },
+  "author": "Camilo Beltran Fonseca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloBeltran24/Closures_and_Scope_JavaScript/issues"
+  },
+  "homepage": "https://github.com/CamiloBeltran24/Closures_and_Scope_JavaScript#readme"
+}
