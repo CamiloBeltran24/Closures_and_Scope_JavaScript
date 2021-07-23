@@ -21,3 +21,13 @@ const functionScope = () => {
 
 functionScope(); // retorna la varaible scope que esta dentro de la funcion, aunque esa varaible tenga el mismo nombre de la global, la funcion hace alucion a la varaible dentro de su scope.
 console.log(scope); // accede a la varaible global scope
+
+const functionScope2 = () => {
+  var scope = "Soy otro ambito lexico";
+  const func = () => {
+    return func;
+  };
+  console.log(scope);
+};
+
+functionScope2();
